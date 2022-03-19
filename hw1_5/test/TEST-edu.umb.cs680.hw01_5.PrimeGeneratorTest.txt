@@ -1,0 +1,7 @@
+Testcase: edu.umb.cs680.hw01_5.PrimeGeneratorTest
+Test: generatePrime_1to30() took 23 milli sec(s)
+Test: primeGenerate_zeroTozero() took 13 milli sec(s)
+Test: primeGenerate_negativeTonegative() took 0 milli sec(s)
+Test: primeGenerate_negativeTo1() took 0 milli sec(s)
+Test: primeGenerate_30To1() took 2 milli sec(s)
+Tests run: 5, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 62 milli sec(s)
