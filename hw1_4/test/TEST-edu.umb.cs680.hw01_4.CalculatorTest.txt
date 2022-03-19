@@ -1,0 +1,5 @@
+Testcase: edu.umb.cs680.hw01_4.CalculatorTest
+Test: divide3By2() took 25 milli sec(s)
+Test: divide5By0withTryCatch() took 0 milli sec(s)
+Test: multiply3By4() took 0 milli sec(s)
+Tests run: 3, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 47 milli sec(s)
