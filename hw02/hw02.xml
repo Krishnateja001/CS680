@@ -4,7 +4,7 @@
 
       on a shell. 
 -->
-<project name="car-junit5-ivy" basedir="."  default="clean" xmlns:ivy="antlib:org.apache.ivy.ant">
+<project name="Singleton-junit5-ivy" basedir="."  default="clean" xmlns:ivy="antlib:org.apache.ivy.ant">
 	<property name="src" location="src" />
 	<property name="bin" location="bin" />
 	<property name="test.src" location="test/src" />
@@ -33,20 +33,20 @@
 	<target name="compile" depends="resolve">
 		<javac srcdir="${src}" destdir="${bin}" includeAntRuntime="no">
 			<classpath refid="classpath"/>
-			<include name="edu/umb/cs680/hw03/*.java"/>
-			<!-- include name="edu/umb/cs680/hw03/Car.java"/-->
+			<include name="edu/umb/cs680/hw02/*.java"/>
+			<!-- include name="edu/umb/cs680/hw02/Singleton.java"/-->
 		</javac>
 		<javac srcdir="${test.src}" destdir="${test.bin}" includeAntRuntime="no"> 
 			<classpath refid="classpath"/>
-			<include name="edu/umb/cs680/hw03/*.java"/>
-			<!-- include name="edu/umb/cs680/hw03/CarTest.java"/-->
+			<include name="edu/umb/cs680/hw02/*.java"/>
+			<!-- include name="edu/umb/cs680/hw02/SingletonTest.java"/-->
 		</javac>
 	</target>
 
 	<target name="test" depends="compile">
 		<!--junitlauncher printSummary="yes">
 			<classpath refid="classpath" />
-			<test outputdir="test" name="edu.umb.cs680.hw03.CarTest"/>
+			<test outputdir="test" name="edu.umb.cs680.hw02.SingletonTest"/>
 			<listener type="legacy-plain" sendSysOut="true"/>
 		</junitlauncher-->
 	
@@ -54,7 +54,7 @@
 			<classpath refid="classpath" />
 			<testclasses outputdir="test">
 				<fileset dir="${test.bin}">
-					<include name="edu/umb/cs680/hw03/*Test.class"/>
+					<include name="edu/umb/cs680/hw02/*Test.class"/>
 				</fileset>
 				<listener type="legacy-plain" sendSysOut="true"/>
 				<!--listener type="legacy-brief" sendSysOut="true"/-->
@@ -64,8 +64,8 @@
 	
 	<target name="clean" depends="test">
 		<delete includeemptydirs="true">
-			<fileset dir="${bin}/edu/umb/cs680/hw03" includes="**/*"/>
-			<fileset dir="${test.bin}/edu/umb/cs680/hw03" includes="**/*"/>
+			<fileset dir="${bin}/edu/umb/cs680/hw02" includes="**/*"/>
+			<fileset dir="${test.bin}/edu/umb/cs680/hw02" includes="**/*"/>
 		</delete>
 	</target>
 	
