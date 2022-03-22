@@ -1,0 +1,6 @@
+Testcase: edu.umb.cs680.hw04.LRUTest
+Test: fetchwithp1() took 1 milli sec(s)
+Test: fetchwithp2() took 1 milli sec(s)
+Test: fetchwithp3() took 1 milli sec(s)
+Test: fetchwithp4() took 2 milli sec(s)
+Tests run: 4, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 9 milli sec(s)
