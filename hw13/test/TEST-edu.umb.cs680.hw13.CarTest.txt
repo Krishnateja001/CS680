@@ -1,0 +1,6 @@
+Testcase: edu.umb.cs680.hw13.CarTest
+Test: verify_MileageComparator_2() took 32 milli sec(s)
+Test: verify_MileageComparator_3() took 2 milli sec(s)
+Test: verify_ParetoComparator() took 0 milli sec(s)
+Test: verify_MileageComparator() took 2 milli sec(s)
+Tests run: 4, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 80 milli sec(s)
