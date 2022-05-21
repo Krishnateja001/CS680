@@ -1,9 +1,0 @@
-Testcase: edu.umb.cs680.hw08.ApfsFileTest
-Test: verifyEqualityOfFileA() took 1 milli sec(s)
-Test: verifyEqualityOfFileB() took 1 milli sec(s)
-Test: verifyEqualityOfFileC() took 1 milli sec(s)
-Test: verifyEqualityOfFileD() took 0 milli sec(s)
-Tests run: 4, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 11 milli sec(s)
-------------- Standard Output ---------------
-[Ljava.lang.String;@24a298a6
-------------- ---------------- ---------------
