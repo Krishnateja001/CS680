@@ -1,0 +1,7 @@
+Testcase: edu.umb.cs680.hw11.CarTest
+Test: verify_MileageTest() took 33 milli sec(s)
+Test: verify_MakeTest() took 3 milli sec(s)
+Test: verify_PriceTest() took 1 milli sec(s)
+Test: verify_ModelTest() took 1 milli sec(s)
+Test: verify_YearTest() took 1 milli sec(s)
+Tests run: 5, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 75 milli sec(s)
